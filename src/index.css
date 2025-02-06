@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Almarai;
+  src: url('./fonts/Almarai-Regular.ttf') ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family: Almarai;
+  @apply bg-slate-100 
+}
+
+@theme {
+  --color-mainColor: #062D64
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
